@@ -2,9 +2,9 @@ const menus = {
     main: `
     lyrics [command] <options>
 
-    --version ............ show package version
-    --help ............... show help menu for a command
-    --song ............. Show lyrics of a song`,
+    --help, -h ............... Show help menu for a command
+    --version, -v ............ Show package version
+    song <options> ........... Show lyrics of a song`,
 
     song: `
     lyrics song <options>

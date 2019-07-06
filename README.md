@@ -1,10 +1,19 @@
 # lyrics CLI
 
-## CLI app to fetch lyrics to a song
+CLI app to fetch lyrics to a song
 
-to install : `npm install -g my-lyrics-cli`
+## Install
+`npm install -g my-lyrics-cli`
 
-to fetch a song you need to specify the artist and the song
-command : 
+## Usage
+`lyrics song --artist <artist> --title <title>`
 
-`lyrics song --artist "Artist" -title "Song Title" `
+Options :
+
+```$xslt
+--help, -h ............... Show help menu for a command
+--version, -v ............ Show package version
+song <options> ........... Show lyrics of a song
+```
+Example :
+`lyrics song -a "Joji" -t "Slow dancing in the dark"`
