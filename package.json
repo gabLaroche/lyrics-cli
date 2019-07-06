@@ -3,22 +3,22 @@
   "version": "1.0.0",
   "description": "A CLI app that gives you lyrics to a song",
   "license": "MIT",
-  "homepage": "https://github.com/timberio/outside-cli#readme",
+  "homepage": "https://github.com/gabLaroche/lyrics-cli#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timberio/outside-cli.git"
+    "url": "git+https://github.com/gabLaroche/lyrics-cli.git"
   },
   "engines": {
     "node": ">=8"
   },
   "keywords": [
-    "weather",
-    "forecast",
-    "rain"
+    "lyrics",
+    "music",
+    "songs"
   ],
   "preferGlobal": true,
   "bin": {
-    "outside": "bin/outside"
+    "lyrics": "bin/lyrics"
   },
   "scripts": {},
   "devDependencies": {},
