@@ -1,5 +1,5 @@
 {
-  "name": "lyrics-cli",
+  "name": "my-lyrics-cli",
   "version": "1.0.0",
   "description": "A CLI app that gives you lyrics to a song",
   "license": "MIT",
